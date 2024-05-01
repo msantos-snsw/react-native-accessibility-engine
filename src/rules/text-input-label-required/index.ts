@@ -1,5 +1,5 @@
 import type { Rule } from '../../types';
-import isTextInput from '@helpers/isTextInput';
+import { isTextInput } from '../../helpers';
 
 const rule: Rule = {
   id: 'text-input-label-required',
