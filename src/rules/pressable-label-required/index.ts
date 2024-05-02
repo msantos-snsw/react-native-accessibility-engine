@@ -26,7 +26,7 @@ const rule: Rule = {
 
 const getTextNode = (node: ReactTestInstance): ReactTestInstance | null => {
   try {
-    return node.findByType(Text);
+    return node.findAllByType(Text)[0];
   } catch (e) {
     return null;
   }
