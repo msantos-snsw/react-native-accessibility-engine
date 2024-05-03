@@ -10,31 +10,31 @@ const run = (component: React.ReactElement<any>) => {
 // To inspect these components, run the example app under "Rules -> Button Role"
 
 it("throws if 'accessibilityRole' prop not defined", () => {
-  const Text = () => (
+  const Header = () => (
     <Text>
       Some text
     </Text>
   );
 
-  expect(() => run(<Text />)).toThrowError(rule.help.problem);
+  expect(() => run(<Header />)).toThrowError(rule.help.problem);
 });
 
 it("throws if 'accessibilityRole' prop has a value other than 'header', 'link', 'text', 'none'", () => {
-  const Button = () => (
+  const Header = () => (
     <Text accessibilityRole={'button'}>
       Some text
     </Text>
   );
 
-  expect(() => run(<Button />)).toThrowError(rule.help.problem);
+  expect(() => run(<Header />)).toThrowError(rule.help.problem);
 });
 
 it("doesn't throw if 'accessibilityRole' prop has the value 'text'", () => {
-  const Button = () => (
+  const Header = () => (
     <Text accessibilityRole={'text'}>
       Some text
     </Text>
   );
 
-  expect(() => run(<Button />)).not.toThrowError(rule.help.problem);
+  expect(() => run(<Header />)).not.toThrowError(rule.help.problem);
 });
