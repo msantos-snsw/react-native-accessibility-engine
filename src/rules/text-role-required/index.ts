@@ -10,7 +10,7 @@ const rule: Rule = {
   assertion: (node) => allowedRoles.includes(node.props.accessibilityRole),
   help: {
     problem:
-      "This component is pressable but the user hasn't been informed that it behaves like a button/link/radio",
+      "This text component needs to communicate it's purpose to the user.",
     solution: `Set the 'accessibilityRole' prop to ${allowedRolesMessage}`,
     link: '',
   },
