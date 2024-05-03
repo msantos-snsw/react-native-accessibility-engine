@@ -14,6 +14,7 @@ const rule: Rule = {
       "This component has an accessibility role of 'checkbox' but doesn't have a checked state",
     solution: `Set the 'accessibilityState' prop to an object like this: { checked: ${allowedValuesMessage} }`,
     link: 'https://www.w3.org/WAI/ARIA/apg/example-index/checkbox/checkbox.html',
+    rule: 'checked-state-required'
   },
 };
 

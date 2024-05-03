@@ -13,6 +13,7 @@ const rule: Rule = {
       "This component is pressable but the user hasn't been informed that it behaves like a button/link/radio",
     solution: `Set the 'accessibilityRole' prop to ${allowedRolesMessage}`,
     link: '',
+    rule: 'pressable-role-required'
   },
 };
 

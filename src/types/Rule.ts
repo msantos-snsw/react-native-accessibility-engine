@@ -19,4 +19,5 @@ export type RuleId =
   | 'link-role-misused'
   | 'no-empty-text'
   | 'checked-state-required'
-  | 'text-input-label-required';
+  | 'text-input-label-required'
+  | 'text-role-required';

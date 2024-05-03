@@ -16,6 +16,7 @@ const rule: Rule = {
     solution:
       "Set the 'accessibilityRole' prop to 'text' or add an 'onPress' prop",
     link: '',
+    rule: 'link-role-misused'
   },
 };
 

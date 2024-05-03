@@ -17,6 +17,7 @@ const rule: Rule = {
     solution:
       "Define an 'accessibilityLabel' prop",
     link: '',
+    rule: 'text-input-label-required'
   },
 };
 
