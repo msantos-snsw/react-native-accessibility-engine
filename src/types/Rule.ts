@@ -20,4 +20,5 @@ export type RuleId =
   | 'no-empty-text'
   | 'checked-state-required'
   | 'text-input-label-required'
-  | 'text-role-required';
+  | 'text-role-required'
+  | 'selected-state-required';

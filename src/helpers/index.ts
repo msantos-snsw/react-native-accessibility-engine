@@ -4,6 +4,7 @@ export { default as isText } from './isText';
 export { default as isTextInput } from './isTextInput';
 export { default as isHidden } from './isHidden';
 export { default as isCheckbox } from './isCheckbox';
+export { default as isRadio } from './isRadio';
 
 export { default as canBeDisabled } from './canBeDisabled';
 export { default as isFunctionalComponent } from './isFunctionalComponent';
