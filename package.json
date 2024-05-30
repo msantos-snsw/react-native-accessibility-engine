@@ -1,5 +1,5 @@
 {
-  "name": "react-native-accessibility-engine",
+  "name": "@msantos-snsw/react-native-accessibility-engine",
   "version": "3.2.2",
   "description": "Make accessibility-related assertions on React Native code using React Test Renderer",
   "main": "lib/commonjs/index",
@@ -31,13 +31,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/aryella-lacerda/react-native-accessibility-engine",
-  "author": "Aryella Lacerda <aryella.lacerda@gmail.com> (https://github.com/aryella-lacerda)",
+  "repository": "https://github.com/msantos-snsw/react-native-accessibility-engine",
+  "author": "Marlon Santos <marlonsantos.au@gmail.com> (https://github.com/msantos-snsw)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aryella-lacerda/react-native-accessibility-engine/issues"
+    "url": "https://github.com/msantos-snsw/react-native-accessibility-engine/issues"
   },
-  "homepage": "https://github.com/aryella-lacerda/react-native-accessibility-engine#readme",
+  "homepage": "https://github.com/msantos-snsw/react-native-accessibility-engine#readme",
   "scripts": {
     "test": "jest",
     "typescript": "tsc --noEmit",
