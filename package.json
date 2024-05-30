@@ -1,5 +1,5 @@
 {
-  "name": "@msantos-snsw/react-native-accessibility-engine",
+  "name": "react-native-a11y-engine",
   "version": "3.2.2",
   "description": "Make accessibility-related assertions on React Native code using React Test Renderer",
   "main": "lib/commonjs/index",
