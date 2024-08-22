@@ -14,7 +14,7 @@ const rule: Rule = {
       "This component has an accessibility role of 'radio' but doesn't have a selected state",
     solution: `Set the 'accessibilityState' prop to an object like this: { selected: ${allowedValuesMessage} }`,
     link: 'https://www.w3.org/WAI/ARIA/apg/patterns/radio/',
-    rule: 'selected-state-required'
+    rule: 'selected-state-required',
   },
 };
 

@@ -17,7 +17,7 @@ const rule: Rule = {
     solution:
       "Set the 'accessibilityValue' prop to an object: { min: ?, max: ?, now: ?}",
     link: '',
-    rule: 'adjustable-value-required'
+    rule: 'adjustable-value-required',
   },
 };
 

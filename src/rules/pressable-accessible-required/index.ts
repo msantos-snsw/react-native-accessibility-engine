@@ -12,7 +12,7 @@ const rule: Rule = {
     solution:
       "Set the 'accessible' prop to 'true' or remove it (pressables are accessible by default)",
     link: '',
-    rule: 'pressable-accessible-required'
+    rule: 'pressable-accessible-required',
   },
 };
 

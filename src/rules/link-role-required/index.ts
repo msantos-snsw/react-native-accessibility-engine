@@ -17,7 +17,7 @@ const rule: Rule = {
     solution:
       "Set the 'accessibilityRole' prop to 'link' or remove the 'onPress' prop",
     link: '',
-    rule: 'link-role-required'
+    rule: 'link-role-required',
   },
 };
 

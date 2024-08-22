@@ -13,7 +13,7 @@ const rule: Rule = {
       "This text component needs to communicate it's purpose to the user.",
     solution: `Set the 'accessibilityRole' prop to ${allowedRolesMessage}`,
     link: '',
-    rule: 'text-role-required'
+    rule: 'text-role-required',
   },
 };
 

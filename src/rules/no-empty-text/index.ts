@@ -14,7 +14,7 @@ const rule: Rule = {
     solution:
       'Add text content or prevent this component from rendering if it has no content',
     link: '',
-    rule: 'no-empty-text'
+    rule: 'no-empty-text',
   },
 };
 

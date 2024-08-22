@@ -11,7 +11,7 @@ const rule: Rule = {
     solution:
       "Set the 'accessibilityState' prop to an object containing a boolean 'disabled' key",
     link: '',
-    rule: 'disabled-state-required'
+    rule: 'disabled-state-required',
   },
 };
 

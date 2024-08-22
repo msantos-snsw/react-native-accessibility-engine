@@ -12,12 +12,10 @@ const rule: Rule = {
     return true;
   },
   help: {
-    problem:
-      "This text input has no accessibility label",
-    solution:
-      "Define an 'accessibilityLabel' prop",
+    problem: 'This text input has no accessibility label',
+    solution: "Define an 'accessibilityLabel' prop",
     link: '',
-    rule: 'text-input-label-required'
+    rule: 'text-input-label-required',
   },
 };
 

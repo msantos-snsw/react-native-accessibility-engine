@@ -10,7 +10,7 @@ const rule: Rule = {
       "This component has an adjustable value but the user wasn't informed of this",
     solution: "Set the 'accessibilityRole' prop to 'adjustable'",
     link: '',
-    rule: 'adjustable-role-required'
+    rule: 'adjustable-role-required',
   },
 };
 

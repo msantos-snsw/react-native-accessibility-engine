@@ -21,7 +21,7 @@ const rule: Rule = {
     solution:
       "Place a text component in the button or define an 'accessibilityLabel' prop",
     link: '',
-    rule: 'pressable-label-required'
+    rule: 'pressable-label-required',
   },
 };
 

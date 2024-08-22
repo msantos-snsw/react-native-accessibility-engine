@@ -1,7 +1,15 @@
 import type { Rule } from '../../types';
 import { isPressable } from '../../helpers';
 
-const allowedRoles = ['button', 'link', 'imagebutton', 'radio', 'tab', 'checkbox', 'togglebutton'];
+const allowedRoles = [
+  'button',
+  'link',
+  'imagebutton',
+  'radio',
+  'tab',
+  'checkbox',
+  'togglebutton',
+];
 const allowedRolesMessage = allowedRoles.join(' or ');
 
 const rule: Rule = {
@@ -13,7 +21,7 @@ const rule: Rule = {
       "This component is pressable but the user hasn't been informed that it behaves like a button/link/radio",
     solution: `Set the 'accessibilityRole' prop to ${allowedRolesMessage}`,
     link: '',
-    rule: 'pressable-role-required'
+    rule: 'pressable-role-required',
   },
 };
 
