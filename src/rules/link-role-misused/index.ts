@@ -7,7 +7,7 @@ const rule: Rule = {
   assertion: (node) => {
     const { onPress, accessibilityRole } = node.props;
     if (!onPress) {
-      return accessibilityRole !== 'link';
+      return !['link', 'button'].includes(accessibilityRole);
     }
     return true;
   },
