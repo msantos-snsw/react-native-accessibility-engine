@@ -1,7 +1,7 @@
 import type { Rule } from '../../types';
 import { isText } from '../../helpers';
 
-const allowedRoles = ['header', 'link', 'text', 'none'];
+const allowedRoles = ['header', 'link', 'text', 'none', 'button'];
 const allowedRolesMessage = allowedRoles.join(' or ');
 
 const rule: Rule = {
