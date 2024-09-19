@@ -28,7 +28,7 @@ Make accessibility-related assertions in React Native
   </a>
 </div>
 
-## Table of Contents
+## Table of Contents.
 
 - [Intro](#intro)
   - [Goals](#goals)
