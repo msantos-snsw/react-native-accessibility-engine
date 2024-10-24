@@ -9,6 +9,7 @@ const allowedRoles = [
   'tab',
   'checkbox',
   'togglebutton',
+  'combobox',
 ];
 const allowedRolesMessage = allowedRoles.join(' or ');
 
