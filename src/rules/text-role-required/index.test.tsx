@@ -15,8 +15,8 @@ it("throws if 'accessibilityRole' prop not defined", () => {
   expect(() => run(<Header />)).toThrowError(rule.help.problem);
 });
 
-it("throws if 'accessibilityRole' prop has a value other than 'header', 'link', 'text', 'none'", () => {
-  const Header = () => <Text accessibilityRole={'button'}>Some text</Text>;
+it("throws if 'accessibilityRole' prop has a value other than 'header', 'link', 'text', 'none', 'button'", () => {
+  const Header = () => <Text accessibilityRole={'alert'}>Some text</Text>;
 
   expect(() => run(<Header />)).toThrowError(rule.help.problem);
 });
